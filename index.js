@@ -1,6 +1,9 @@
-let nome = "Player";
-let xp = "1";
+let nome = "Mario";
+let xp = "0";
 let = "elo";
+
+//o nosso herói derrotou um boss e ganhou um total de 3400 de xp
+xp += "3400"
 
 if (xp <= 1000)
  {
@@ -35,5 +38,5 @@ if (xp <= 1000)
   elo = "Radiante";
  }
 
- 
+
 console.log("O Herói de nome " + nome + " está no nível de " + elo);
